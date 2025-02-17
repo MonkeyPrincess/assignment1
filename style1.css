@@ -1,0 +1,33 @@
+.top{
+  display:flex;
+  justify-content: space-between;
+  color: black;
+  font-size:40px;
+  margin:70px;
+}
+
+.top-right{
+   color:green;
+   box-sizing: border-box;
+}
+
+.part21{
+    font-size:20px;
+
+}
+.part22{
+    font-size:55px;
+    
+}
+.part23{
+    font-size:30px;
+    
+}
+.part2{
+    align-items: center;
+}
+
+img{
+    height: auto;
+    width:auto;
+}
