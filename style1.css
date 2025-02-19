@@ -15,8 +15,10 @@ nav ul{
 }
 nav li a {
     text-decoration: none;
-   
-}
+   }
+nav li a button:hover{
+    background-color: #7fe799;
+   }
 .head{
     font-weight: bolder;
     font-size:32px;
@@ -51,6 +53,9 @@ nav li a {
  padding:17px 34px;
  border-radius: 8px;
  border-style:none;
+}
+.banner-content button:hover{
+    background-color: rgb(50, 205, 153);
 }
 .btn-pic{
    width:474px;
@@ -131,17 +136,26 @@ nav li a {
     background-color:#c0cef8; 
     border-radius:10px;
 }
+.part41 button:hover{
+    background-color: #9dbcf5;
+}
 .part42{
     margin:24px;
     padding:32px;
     background-color:#c6e4d6; 
     border-radius:10px;
 }
+.part42 button:hover{
+    background-color: #7fe799;
+}
 .part43{
     margin:24px;
     padding:32px;
     background-color:#F7EBCF; 
     border-radius:10px;
+}
+.part43 button:hover{
+    background-color: #beb36b;
 }
 .a{
     color:grey;
@@ -238,6 +252,9 @@ nav li a {
     font-size: 18px;
     margin-top: 32px;
 }
+.part7 button:hover{
+    background-color: #7fe799;
+}
 .fontc{
     color: #0e0e0e;
     margin-left:32px;
@@ -245,6 +262,10 @@ nav li a {
 .donate{
     text-align: center;
     margin:80px;}
+
+.donate1 button:hover{
+    background-color: #7fe799;
+}
 #donate2{
    font-size: 40px;
    font-weight:bolder;
