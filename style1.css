@@ -1,33 +1,393 @@
-.top{
-  display:flex;
-  justify-content: space-between;
-  color: black;
-  font-size:40px;
-  margin:70px;
+.open-sans-normal{
+    font-family:sans-serif;
+    font-optical-sizing:auto;
+    font-style:normal;
+    background-color:#ebf0ee;
 }
-
-.top-right{
-   color:green;
-   box-sizing: border-box;
+nav ul li{
+    list-style: none;
 }
-
-.part21{
-    font-size:20px;
-
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin: 50px
 }
-.part22{
-    font-size:55px;
-    
+nav li a {
+    text-decoration: none;
+    font-size: 30px;
 }
-.part23{
+.head{
+    font-weight: bold;
     font-size:30px;
+}
+.btn1{
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 5px;
+    padding:10px 20px;
+    color:green;
+    border-color: green;
     
 }
-.part2{
+
+
+.banner{
+    display:flex;
+    margin:100px;
+    align-items: center;
+    background-color: #c6e4d6;
+
+    padding:100px;
+    border-radius: 15px;
+
+    
+}
+.banner-content{
+
+}
+.head1{
+  font-size:  22px;
+  color:grey;
+
+}
+.banner-text{
+ font-size: 50px
+}
+.btn2{
+ font-size: 25px;
+ background-color:green;
+ color:aliceblue;
+ padding:15px;
+ border-radius: 8px;
+ border-style:none;
+}
+.btn-pic{
+   width:400px
+}
+
+
+.part3{
+    margin:100px;
+}
+.h2{
+    
+    font-size:30px;
+    font-weight:bolder;
+}
+.part3in{
+    display:flex;
+}
+
+.part31{
+   margin:10px;
+   padding:25px 25px 0px 25px;
+   background-color: white; 
+   border-radius:10px;
+}
+.part32{
+    margin:10px;
+    padding:25px 25px 0px 25px;
+    background-color: white; 
+    border-radius:10px;
+}
+.part33{
+    margin:10px;
+    padding:25px 25px 0px 25px;
+    background-color: white;
+    border-radius:10px; 
+}
+.part34{
+    margin:10px;
+    padding:25px 25px 0px 25px;
+    background-color: white; 
+    border-radius:10px;
+}
+
+
+
+.h3{
+    
+    font-size:30px;
+    font-weight:bolder;
+}
+.part4{
+    margin:100px;
+}
+
+.part4in{
+   display:flex;
+
+}
+.btn3{
+    background-color:dodgerblue;
+    color:white;
+    border-radius: 5px;
+    border-style: none;
+    padding:5px;
+}
+.btn4{
+    background-color:green;
+    color:white;
+    border-radius: 5px;
+    border-style: none;
+    padding:5px;
+}
+.btn5{
+    background-color:orange;
+    color:white;
+    border-radius: 5px;
+    border-style: none;
+    padding:5px;
+}
+.part41{
+    margin:10px;
+    padding:25px 25px 10px 25px;
+    background-color:#9dbcf5; 
+    border-radius:10px;
+}
+.part42{
+    margin:10px;
+    padding:25px 25px 10px 25px;
+    background-color:#c6e4d6; 
+    border-radius:10px;
+}
+.part43{
+    margin:10px;
+    padding:25px 25px 10px 25px;
+    background-color:#f7e4c6; 
+    border-radius:10px;
+}
+
+
+
+
+.part5{
+    margin:100px;
+    padding:30px;
+    border-radius: 10px;;
+    background-color: white;
+    background-repeat:no-repeat;
+   background-image: url(B11A1--assignment-1/assets/quote-bg.png);
+}
+.yun{
+    font-weight:bold;
+}
+
+
+
+
+.part6{
+    margin:100px;
+}
+
+.h4{
+    font-size:30px;
+    font-weight:bolder;
+    
+   
+}
+
+.tb1{
+    background-color:#c6e4d6;
+    justify-content: space-between;
+    padding:10px;
+    border-radius:5px;
+}
+
+.b1{
     align-items: center;
 }
+.b1 button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+    padding:5px 10px;
+    border:none;
+    
+}
 
-img{
-    height: auto;
-    width:auto;
+.b1 a{
+    display:flex;
+    color:black;
+    text-decoration: none;
+    padding:10px;
+}
+
+.b1 .content{
+    display:none;
+    position:absolute;
+    color:black;
+    background-color: white;
+    
+}
+
+.b1:hover .content{
+    display:block;
+}
+.table{
+    background-color: white;
+    padding:50px;
+    border-color:black;
+    border-radius: 5px;
+    font-size:20px;
+    }
+
+.h5{
+    font-size:30px;
+    font-weight:bolder;
+   
+}
+.part7{
+    margin:100px;
+}
+
+.aljazee1,.aljazee2,.aljazee3{
+    display:flex;
+    background-color: white;
+    padding:25px;
+    border-radius:10px;
+    margin:10px;
+}
+
+
+.alja1,.alja2,.alja3{
+  border-radius:10px;
+  margin:10px;
+}
+
+.btn6,.btn7,.btn8{
+    background-color: green;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+    border-style:none;
+}
+.donate{
+    text-align: center;
+    margin-left:100px;
+    
+  }
+#donate2{
+   font-size: 50px;
+   font-weight:bolder;
+}
+#donate3{
+    font-style: normal;
+    color:grey;
+ }
+.donate-content{
+    display:flex;
+    margin-left: 100px;
+    align-content: center;
+}
+.don{background-color:white;
+    border-radius:18px;
+    margin:5px;
+    border-color:lightgray;
+    padding:50px;
+    font-size: 30px;
+    font-weight:bold;
+    border-style:solid;
+}
+.don2{
+    background-color:#c6e4d6;
+    border-radius:18px;
+    margin:5px;
+    border-color:lightgray;
+    padding:50px;
+    font-size: 30px;
+    font-weight:bold;
+    border-style:solid;
+}
+#donate4{
+    background-color: white;
+    color :grey;
+    font-size: 25px;
+    padding:20px 50px 20px 50px;
+    margin-right:100px;
+    box-shadow: 5px 5px 2px lightgrey;
+}
+#btn9{
+    background-color:#006A50;
+    color:white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding:18px 35px;
+    border-style: none;
+    font-weight: bolder;
+    align-items: center;
+}
+.part8{
+    text-align: center;
+    margin: 100px;
+    background-color: #c6e4d6;
+    border-radius: 15px;
+    padding:100px;
+    }
+#sub-head{
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.subscription{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.form-box{
+    padding:10px;
+    border-radius: 5px;
+    
+
+}
+.form-box input{
+    font-size:15px;
+    color:grey;
+    padding:20px 150px 20px 150px;
+    border:none;
+    outline:none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form-box button{
+    color:white;
+    padding:15px 20px;
+    font-size: 20px;
+    border:none;
+    background-color: #006A50;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight:bold;
+    
+}
+.form-box button:hover{
+      background-color:#9dbcf5;
+}
+#spam{
+    text-align: center;
+    }
+#last{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.last{
+    background-color: white;
+    margin: 30px 0px 0px 0px;
+    padding:10px 0px 0px 0px;
+    text-align: center;
+}
+#images{
+    display:flex;
+    justify-content: center;
+    
+}
+.images{
+    margin:10px 10px 10px 0px;
+    padding:20px;
+    width:30px;
 }
